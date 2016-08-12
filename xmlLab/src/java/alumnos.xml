@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<alumnos>
+  <alumno dni="9394949">
+    <nombre>Marta</nombre>
+    <apellidos> Palomares</apellidos>
+    <nota>5</nota>
+    <email>juan@petra.euitio.uniovi.es</email>
+  </alumno>
+
+  <alumno dni="9394942">
+    <nombre>Kiko</nombre>
+     <apellidos> Matamoros</apellidos>
+    <nota>6</nota>
+    <email>kiko@cronicas.org</email>
+  </alumno>
+
+  <alumno dni="9394922">
+    <nombre>Leo</nombre>
+     <apellidos> Gomez</apellidos>
+    <nota>5</nota>
+    <email>Amor@Discos.com</email>
+  </alumno>
+
+  <alumno dni="98765432">
+    <nombre>Diana</nombre>
+    <apellidos> Digo Ana</apellidos>
+    <nota>8</nota>
+    <email>Digo@Alumnos.com</email>
+  </alumno>
+
+  <alumno dni="9394233">
+    <nombre>Elque</nombre>
+    <apellidos> Suspende</apellidos>
+    <nota>4.7</nota>
+    <email>elque@siempre.suspende.com</email>
+  </alumno>
+
+  <alumno dni="23234454">
+    <nombre>Raspa</nombre>
+      <apellidos> Dillo</apellidos>
+    <nota>5</nota>
+    <email>ras@padillo.com</email>
+  </alumno>
+
+  <alumno dni="23233444">
+    <nombre>Pepe</nombre>
+     <apellidos>Angulo</apellidos>
+    <nota>8</nota>
+    <email>elque@sacano.table.org</email>
+  </alumno>
+
+  <alumno dni="23231212">
+    <nombre>Enrique</nombre>
+     <apellidos>Quepa López</apellidos>
+    <nota>9.7</nota>
+    <email>Kike@alumnos.com</email>
+  </alumno>
+
+  <alumno dni="2323129">
+    <nombre>Pepe</nombre>
+    <apellidos> Kui Kou</apellidos>
+    <nota>6</nota>
+    <email>pepe@alumnos.com</email>
+  </alumno>
+
+  <alumno dni="2323100">
+    <nombre>José</nombre>
+    <apellidos>López López</apellidos>
+    <nota>6</nota>
+    <email>pepe@alumnos.com</email>
+  </alumno>
+
+  <alumno dni="2323101">
+    <nombre>Marta</nombre>
+    <apellidos>Tarma Martínez</apellidos>
+    <nota>8</nota>
+    <email>martama@alumnos.com</email>
+  </alumno>
+
+</alumnos>

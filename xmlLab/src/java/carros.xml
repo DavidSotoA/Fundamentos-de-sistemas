@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<catalogo>
+    <carros>
+         <carro>
+            <imagen>./imagenes/C1.jpg</imagen>
+            <modelo>2013</modelo>
+            <precio>45.000.000</precio>
+            <datos>
+                <kilometraje>10000</kilometraje>
+                <traccion>4X4</traccion>
+                <tipo_motor>16V</tipo_motor>
+                <marca>Renault</marca>
+                <puertas>5</puertas>
+                <puestos>5</puestos>
+            </datos>
+        </carro>
+        
+        <carro>
+            <imagen>./imagenes/C2.jpg</imagen>
+            <modelo>2017</modelo>
+            <precio>125.000.000</precio>
+            <datos>
+                <kilometraje>0</kilometraje>
+                <traccion>4X2</traccion>
+                <tipo_motor>V8</tipo_motor>
+                <marca>Mercedes benz</marca>
+                <puertas>2</puertas>
+                <puestos>4 con cobijas</puestos>
+            </datos>
+        </carro>
+        
+         <carro>
+            <imagen>./imagenes/C3.jpg</imagen>
+            <modelo>1995</modelo>
+            <precio>500.000</precio>
+            <datos>
+                <kilometraje>100000000</kilometraje>
+                <traccion>4X4</traccion>
+                <tipo_motor>1600</tipo_motor>
+                <marca>Jeep</marca>
+                <puertas>0.5</puertas>
+                <puestos>20</puestos>
+            </datos>
+        </carro>
+    </carros>
+</catalogo>
