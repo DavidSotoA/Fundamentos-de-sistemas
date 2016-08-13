@@ -1,0 +1,40 @@
+<?xml-stylesheet type="text/xsl" href="mundial2"?>
+<equipos>
+    <equipo>
+        <pais posicion="1">
+            Francia
+        </pais>
+        <grupo>A</grupo>
+        <colores>
+            <azul/>
+            <rojo/>
+            <blanco/>
+        </colores>
+    </equipo>
+    
+    <equipo>
+        <pais posicion="30">
+            Mexico
+        </pais>
+        <grupo>G</grupo>
+        <colores>
+            <rojo/>
+            <verde/>
+            <blanco/>
+        </colores>
+    </equipo>
+    
+    <equipo>
+        <pais posicion="5">
+            Brazil
+        </pais>
+        <grupo>H</grupo>
+        <colores>
+            <azul/>
+            <amarillo/>
+        </colores>
+    </equipo>
+    
+    
+    
+</equipos>

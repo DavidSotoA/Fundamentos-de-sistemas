@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<libros>
+	<libro>
+		<titulo>Programe con netbeans</titulo>
+		<autor>Diego Botia</autor>
+		<isbn>948344-3224</isbn>
+		<ano>2009</ano>
+	</libro>
+
+	<libro>
+		<titulo>Introduccion a visual basic</titulo>
+		<autor>Juan Perez</autor>
+		<isbn>943-4413-332</isbn>
+		<ano>2012</ano>
+	</libro>
+
+	<libro>
+		<titulo>Programacion en android</titulo>
+		<autor>Javier Gutierrez</autor>
+		<isbn>4344-3234-1223</isbn>
+		<ano>2010</ano>
+	</libro>
+</libros>

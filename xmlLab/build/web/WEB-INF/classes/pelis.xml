@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="ISO8859-1"?>
+<!--El parámetro encoding es necesario para poder incluir acentos (tildes) -->
+<!--y otras opciones de puntuación, quítalo y verás los errores-->
+<TRAILERS>
+   <PELICULA>
+      <TITULO>El retorno de la momia</TITULO>
+      <GENERO>Terror</GENERO>
+      <TEMA>El espíritu de la Momia vuelve otra vez de entre los muertos para amenazar a los mismos protagonistas</TEMA>
+      <CARTEL>./imagenes/P1.jpg</CARTEL>
+      <URL>http://www.apple.com/trailers/universal/the_mummy_returns/</URL>
+   </PELICULA>
+   <PELICULA>
+      <TITULO>Traffic</TITULO>
+      <GENERO>Accion - Policiaca</GENERO>
+      <TEMA>Película denuncia-reportaje de ritmo trepidante sobre el turbio asunto del tráfico de drogas</TEMA>
+      <CARTEL>./imagenes/P2.jpg</CARTEL>
+      <URL>http://www.apple.com/trailers/usa/traffic/</URL>
+   </PELICULA>
+   <PELICULA>
+      <TITULO>Final Fantasy</TITULO>
+      <GENERO>Acción - Fantasía</GENERO>
+      <TEMA>La esperadísima versión cinematográfica del popular juego para PlayStation</TEMA>
+      <CARTEL>./imagenes/P3.jpg</CARTEL>
+      <URL>http://www.apple.com/trailers/columbia/final_fantasy/</URL>
+   </PELICULA>
+   <PELICULA>
+      <TITULO>El diario de Bridget Joness</TITULO>
+      <GENERO>Comedia</GENERO>
+      <TEMA>Uno de los últimos éxitos de taquilla es esta comedia con un reparto de lujo</TEMA>
+      <CARTEL>./imagenes/P4.jpg</CARTEL>
+      <URL>http://www.apple.com/trailers/miramax/bridget_joness_diary.html</URL>
+   </PELICULA>
+</TRAILERS>
+
