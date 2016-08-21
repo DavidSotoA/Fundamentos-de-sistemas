@@ -30,8 +30,7 @@
                                 <xsl:value-of select="ano"/>
                             </td>
                         </tr>
-                    </xsl:for-each>
-                    
+                    </xsl:for-each> 
                 </table>
             </body>
         </html>

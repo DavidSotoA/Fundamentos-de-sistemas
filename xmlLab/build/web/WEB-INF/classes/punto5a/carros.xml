@@ -2,7 +2,7 @@
 <catalogo>
     <carros>
          <carro>
-            <imagen>./imagenes/C1.jpg</imagen>
+            <imagen>../imagenes/C1.jpg</imagen>
             <modelo>2013</modelo>
             <precio>45.000.000</precio>
             <datos>
@@ -16,7 +16,7 @@
         </carro>
         
         <carro>
-            <imagen>./imagenes/C2.jpg</imagen>
+            <imagen>../imagenes/C2.jpg</imagen>
             <modelo>2017</modelo>
             <precio>125.000.000</precio>
             <datos>
@@ -30,7 +30,7 @@
         </carro>
         
          <carro>
-            <imagen>./imagenes/C3.jpg</imagen>
+            <imagen>../imagenes/C3.jpg</imagen>
             <modelo>1995</modelo>
             <precio>500.000</precio>
             <datos>

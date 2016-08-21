@@ -1,6 +1,5 @@
 package punto5d;
 
-import punto5d.Elemento;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
