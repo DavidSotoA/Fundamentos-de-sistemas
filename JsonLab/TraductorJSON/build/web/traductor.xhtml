@@ -1,0 +1,111 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-
+
+    transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+
+      xmlns:f="http://xmlns.jcp.org/jsf/core"
+
+      xmlns:p="http://primefaces.org/ui"
+
+      xmlns:b="http://bootsfaces.net/ui">
+
+    <h:head>
+
+        <title>Facelet Title</title>
+
+    </h:head>
+
+    <h:body>
+
+        <ui:composition template="./template.xhtml">
+
+            <ui:define name="content">
+
+                <f:view>
+
+                    <h:form>
+
+                        <b:panel look="primary" title="#{app['application.title']}">
+
+                            <h:panelGrid columns="4" cellpadding="5">
+
+                                <h:outputText value="origen:"/>
+
+                                <b:inputText value="#{lectorJSON.origen}">
+
+                                    <f:facet name="prepend">
+
+                                        <h:outputText value="" />
+
+                                    </f:facet>
+
+                                </b:inputText>
+
+
+
+                                <h:outputText value="traducida:"/>
+
+                                <b:inputText id="salida" value="#{lectorJSON.destino}">
+
+                                </b:inputText>
+
+                                <h:outputText value="De"/>
+
+
+
+                                <b:selectOneMenu value="#{lectorJSON.languageorigen}" required="true">
+
+                                    <f:selectItem itemLabel="Español" itemValue="spa" />
+
+                                    <f:selectItem itemLabel="Chino(simplificado)" itemValue="zho" />
+
+                                    <f:selectItem itemLabel="Ingles" itemValue="eng" />
+
+                                </b:selectOneMenu>
+
+
+
+                                <h:outputText value="A"/>
+
+                                <b:selectOneMenu value="#{lectorJSON.languagedestino}" required="true">
+
+                                    <f:selectItem itemLabel="Chino(simplificado)" itemValue="zho" />
+
+                                    <f:selectItem itemLabel="Ingles" itemValue="eng" />
+
+                                    <f:selectItem itemLabel="Español" itemValue="spa" />
+
+                                </b:selectOneMenu>
+
+                                <p:commandButton value="Traducir" actionListener="#{lectorJSON.lector()}"
+
+                                                 update="salida,growl"
+
+                                                 />
+
+                            </h:panelGrid>
+
+                        </b:panel>
+
+                        <p:growl id="growl" showDetail="true" />
+
+                        <p:growl id="messages" showDetail="true" life="2000" />
+
+                    </h:form>
+
+                </f:view>
+
+            </ui:define>
+
+        </ui:composition>
+
+    </h:body>
+
+</html>
