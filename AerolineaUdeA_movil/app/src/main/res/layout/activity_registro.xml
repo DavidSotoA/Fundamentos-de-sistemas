@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.example.skorpionx.aerolineaudea_movil.com.udea.aerolieaUdeA.socio.RegistroActivity">
+
+
+    <ScrollView
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_nombre"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:hint="  Nombre "
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:layout_above="@+id/button"
+                    android:minWidth="350dp"
+                    android:drawableStart="@drawable/ic_name"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_apellidos"
+                android:layout_below="@+id/input_nombre"
+                android:layout_alignLeft="@+id/input_nombre"
+                android:layout_alignStart="@+id/input_nombre">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:hint="  Apellidos "
+                    android:inputType="text"
+                    android:singleLine="true"
+                    android:layout_above="@+id/button"
+                    android:minWidth="350dp"
+                    android:drawableStart="@drawable/ic_name"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_contraseña"
+                android:layout_below="@+id/input_apellidos"
+                android:layout_alignRight="@+id/input_nombre"
+                android:layout_alignEnd="@+id/input_nombre">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:hint="  Contraseña "
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:layout_above="@+id/button"
+                    android:minWidth="350dp"
+                    android:drawableStart="@drawable/ic_contrasena"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_contraseña2"
+                android:layout_below="@+id/input_contraseña"
+                android:layout_centerHorizontal="true">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:hint="  Repita su contraseña "
+                    android:inputType="textPassword"
+                    android:singleLine="true"
+                    android:layout_above="@+id/button"
+                    android:minWidth="350dp"
+                    android:drawableStart="@drawable/ic_contrasena"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="elije tu fecha de nacimiento"
+                android:id="@+id/input_calendar_button" />
+
+            <EditText
+                android:layout_width="374dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_calendar_text"
+
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                />
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_movil"
+                android:layout_below="@+id/input_fecha_nacimiento"
+                android:layout_alignRight="@+id/input_contraseña"
+                android:layout_alignEnd="@+id/input_contraseña">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:hint="  Número movil"
+                    android:inputType="phone"
+                    android:singleLine="true"
+                    android:layout_above="@+id/button"
+                    android:minWidth="350dp"
+                    android:drawableStart="@drawable/ic_movil"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_correo"
+                android:layout_below="@+id/input_tarjeta_credito"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:hint="  Correo electronico"
+                    android:inputType="textEmailAddress"
+                    android:singleLine="true"
+                    android:layout_above="@+id/button"
+                    android:minWidth="350dp"
+                    android:drawableStart="@drawable/ic_email"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <android.support.design.widget.TextInputLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/input_tarjeta_credito"
+                android:layout_below="@+id/input_movil"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <android.support.v7.widget.AppCompatEditText
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:imeOptions="actionNext"
+                    android:hint="  Número tarjeta de credito"
+                    android:inputType="number"
+                    android:singleLine="true"
+                    android:layout_above="@+id/button"
+                    android:minWidth="350dp"
+                    android:drawableStart="@drawable/ic_tarjeta_credito"/>
+            </android.support.design.widget.TextInputLayout>
+
+            <Button
+                android:layout_marginTop="@dimen/activity_vertical_margin"
+                android:layout_marginLeft="@dimen/activity_vertical_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Registrarse"
+                android:id="@+id/input_registrarse"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:background="#7C4DFF" />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+</RelativeLayout>
+
+

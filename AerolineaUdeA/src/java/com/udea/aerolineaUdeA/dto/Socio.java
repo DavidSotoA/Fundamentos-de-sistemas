@@ -1,16 +1,18 @@
 package com.udea.aerolineaUdeA.dto;
 
-public class Socio {
-    int id;
-    String token;
-    String nombre;
-    String contraseña;
-    String apellidos;
-    String fecha_nacimiento;
-    String movil;
-    String correo_electronico;
-    String tarjeta_de_credito;
-    int numero_de_millas;
+import java.io.Serializable;
+
+public class Socio implements Serializable {
+    private int id;
+    private String token;
+    private String nombre;
+    private String contraseña;
+    private String apellidos;
+    private String fecha_nacimiento;
+    private String movil;
+    private String correo_electronico;
+    private String tarjeta_de_credito;
+    private int numero_de_millas;
 
     public Socio(int id,String token, String nombre,String contraseña, String apellidos, String fecha_nacimiento, String movil, String correo_electronico, String tarjeta_de_credito, int numero_de_millas) {
         this.id = id;

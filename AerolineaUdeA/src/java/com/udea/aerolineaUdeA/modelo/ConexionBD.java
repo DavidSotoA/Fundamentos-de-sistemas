@@ -85,7 +85,7 @@ public class ConexionBD {
         String fecha= dateFormat.format(date);
         
         ConexionBD con=new ConexionBD();
-        Socio socio= new Socio("Andres","suContraseña", "Soto Ayala",fecha,"3242342","andres@wow.com","1234534",0);
+        Socio socio= new Socio("Andre","suContraseña", "Soto Ayala",fecha,"3242342","andres@wow.com","1234534",0);
         RespuestaService resp=con.insertSocio(socio);
         System.out.println(fecha);
     }
